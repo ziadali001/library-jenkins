@@ -3,5 +3,5 @@
 import com.example.Docker
 
 def call(String imageName) {
-    return new Docker(this).buildDockerImage(${IMAGE_NAME})
+    return new Docker(this).buildDockerImage(imageName)
 }
